@@ -4,7 +4,6 @@ import customtkinter as ctk
 from tkinter import messagebox, filedialog
 import webbrowser  # Import the webbrowser module
 
-
 ctk.set_appearance_mode("dark")
 app = ctk.CTk()
 app.title(f"Creal V2 [PROTECTED WEBHOOK]")
