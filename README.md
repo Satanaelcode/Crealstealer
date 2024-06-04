@@ -3,7 +3,7 @@
 
 
 
-<p align="center"><a href="https://discord.gg/Hdn9PZ6tbU" target="_blank">✨ Join Discord for support and contact (Click me! ) ✨ </a>
+<p align="center"><a href="https://discord.gg/viclog" target="_blank">✨ Join Discord for support and contact (Click me! ) ✨ </a>
 
 
 
