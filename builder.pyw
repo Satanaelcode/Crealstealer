@@ -5,10 +5,9 @@ from tkinter import messagebox, filedialog
 import webbrowser  # Import the webbrowser module
 import requests
 
-
 ctk.set_appearance_mode("dark")
 app = ctk.CTk()
-app.title(f"Creal V2 [PROTECTED WEBHOOK]")
+app.title(f"Creal Stealer BUILDER")
 app.iconbitmap("img\\xd.ico")
 app.geometry("400x240")
 app.resizable(False, False)
