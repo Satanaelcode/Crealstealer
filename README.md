@@ -3,7 +3,7 @@
 
 
 
-<p align="center"><a href="https://skids.rip/discord" target="_blank">✨ Join Discord for support and contact (Click me! ) ✨ </a>
+<p align="center">⚠️ DO ONLY USE FOR EDUCATIONAL USECASES THIS IS A BACKUP FOR RESEACH ⚠️</p>
 
 
 
