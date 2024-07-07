@@ -83,21 +83,6 @@
 4. Run the builder by double clicking the `builder.bat` file
 5. Follow instructions in builder and your exe will be found in the `dist` folder under the name `creal.exe`
 
-<div align="center"><img style="display: block; margin-left: auto; margin-right: auto; width: 65%;" src="https://raw.githubusercontent.com/Nikifishy/CrealStealerV2/main/img/builder.png"></img></div>
-
-                                                       🖼️ Pictures
- 
-<div align="center">
-    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Nikifishy/CrealStealerV2/main/img/Creal1.png"></img> 
-    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Nikifishy/CrealStealerV2/main/img/Creal2.png"></img>
-    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="35%" src="https://raw.githubusercontent.com/Nikifishy/CrealStealerV2/main/img/Creal4.png"></img>
-    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Nikifishy/CrealStealerV2/main/img/Creal3.png"></img>
-    
-</div>
- 
- 
-
-
 
                                                       ⚠️ Disclaimer
 
